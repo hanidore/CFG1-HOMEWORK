@@ -10,9 +10,9 @@ For example, method add_item probably accepts some kind of an item?..
 3. You will need to write some examples of how your code works.
 """
 
-class CashRegister:
+class CashRegister(object):
 
-    def __init__(self):
+    def __init__(self) :
         self.total_items = {'chicken nuggets': '2.30'}, \
                            {'chips': '1.00'}, \
                            {'burger': '2.20'}
@@ -41,7 +41,7 @@ class CashRegister:
         self.item_count = 0
         self.total_price = 0
 #Example code run
-checkout = CashRegister()
+checkout = CashRegister ()
 checkout.add_item('raisins', 2.15)
 checkout.add_item('water', 1.00)
 checkout.add_item('mangos', 0.70)
