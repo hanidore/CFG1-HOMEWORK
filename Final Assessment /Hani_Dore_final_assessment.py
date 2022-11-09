@@ -192,9 +192,9 @@ def total (num):
 if num == 0
     else int(num % 10) + total(int(num/10))
 
-total (78)
-total(333)
-total(12345)
+print(total((78))
+print(total((333))
+print(total((12345))
 
 """
 
